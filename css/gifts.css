@@ -1,0 +1,91 @@
+.news_list{
+    *text-align: center;
+}
+a ,h1{
+   color: #8F7E6D; 
+}
+.tit{
+    border: none;
+    padding-top: 30px;
+    height: 55px;
+}
+.tit>h1{
+    font-size: 24px;
+    height: 25px;
+    line-height: 25px;
+    margin-bottom: 45px;
+    text-align: center;
+    font-weight: 400;
+}
+.gift_box{
+    width: 750px;
+    height: 190px;
+    padding-top: 25px;
+    margin: auto;
+    position: relative;
+    background-color: #2C1E11;
+}
+.row{
+    width: 360px;
+    height: 55px;
+    margin: auto;
+}
+.row span{
+    color: #e69138;
+    display: inline;
+    float: left;
+    width: 80px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+}
+.selwp{
+    width: 260px;
+    padding: 7px 10px;
+    border-radius: 3px;
+    position: relative;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #3A2916;
+    display: inline;
+    float: left;
+}
+#click{
+    line-height: 20px;
+    color: #8F7E6D;
+    
+}
+.btn{
+    border: rgb(156, 88, 88) 0.01rem solid;
+    border-radius: 10%;
+    background: url(../img/lingqu1.png) no-repeat;
+    margin-right: 15px;
+    width: 88px;
+    height: 28px;
+    text-align: center;
+    line-height: 26px;
+    font-size: 14px;
+    color: #e69138;
+    float: left;
+}
+.btn:hover{
+    background: url(../img/lingqu2.png);
+}
+#hide3{
+    position: absolute;
+    top: 34px;
+    left: 0;
+    width: 270px;
+    z-index: 11;
+    max-height: 280px;
+    padding: 5px;
+    border-radius: 0 0 3px 3px;
+    background-color: #3a2916;
+}
+#hide3 li{
+    line-height: 28px;
+    padding: 0 5px;
+    height: 28px;
+    border: none;
+    color: #8F7E6D;
+}

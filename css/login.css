@@ -1,0 +1,497 @@
+body{
+    width: 1349px;
+    height: 1118px;
+    margin: 0px auto;
+}
+.center{
+    width: 100%;
+    height: 745px;
+    min-height: 745px;
+    position: relative;
+}
+.in_center{
+    width: 1349px;
+    height: 745px;
+    background: url(../img/indexbg.jpg) no-repeat center top;
+    margin: 0px auto;
+}
+.c{
+    width: 100%;
+    height: 86%;
+    min-height: 642px;
+    position: absolute;
+    top: 7%;
+}
+.c_center{
+    width: 330px;
+    display: block;
+    height: 100%;
+    min-width: 330px;
+    max-height: 856px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    z-index: 1;
+    margin-left: -165px;
+}
+.c_all{
+    width: 330px;
+    margin-left: -165px;
+    z-index: 2;
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+.all_center{
+    width: 98%;
+    height: 88%;
+    margin: 0px auto;
+    background-color: gray;
+    margin-top: 9%;
+}
+.login{
+    font-size: .12rem;
+    background-color: #fff;
+    border-radius: 0.85rem;
+    position: absolute;
+    z-index: 999;
+    background: #fff;
+    max-width: 97%;
+    margin: auto;
+    left: 8%;
+    top: 30%;
+    width: 8.4rem;
+    min-width: 280px;
+    min-height: 270px;
+}
+.all_72bian{
+    width: 260px;
+    height: 173px;
+    display: inline-block;
+    position: absolute;
+    top: 41px;
+    left: -312px;
+    background: url(../img/72.png);
+}
+.all_left{
+    width: 180px;
+    height: 369px;
+    position: absolute;
+    left: -260px;
+    bottom: 6px;
+    background: #343434;
+    border-radius: 14px;
+}
+.all_left .shift1{
+    display: block;
+    width: 132px;
+    height: 59px;
+    line-height: 58px;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 48px;
+    position: relative;
+    padding-top: 12px;
+}
+.all_left>a{
+    display: block;
+    width: 132px;
+    height: 59px;
+    line-height: 58px;
+    font-size: 18px;
+    color: #fff;
+    padding-left: 48px;
+    position: relative;
+}
+.all_left>a:hover{
+    color: #ff9001;
+}
+.all_left>a::before{
+    content: '';
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    left: 17px;
+}
+.shift1::before{
+    top: 49%;
+    background: url(../img/game.png) no-repeat;
+}
+.shift1:after,.shift2:after,.shift3:after,.shift4:after{
+    content: '';
+    height: 1px;
+    width: 150px;
+    background: #4d4d4d;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+}
+.shift2:before{
+    top: 33%;
+    background: url(../img/server.png) no-repeat;
+}
+.shift3:before{
+    top: 33%;
+    background: url(../img/save.png) no-repeat;
+}
+.shift4:before{
+    top: 33%;
+    background: url(../img/xiazai.png) no-repeat;
+}
+.shift5:before{
+    top: 33%;
+    background: url(../img/weixin.png) no-repeat;
+}
+.left_title{
+    width: 160px;
+    height: 53px;
+    font-size: 20px;
+    line-height: 53px;
+    text-align: center;
+    font-weight: 700;
+    color: #fff;
+    background: #575757;
+    padding: 0 10px;
+    border-radius: 14px 14px 0 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.allscreen{
+    width: 35px;
+    height: 108px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 38px 0 0 5px;
+    text-align: center;
+    line-height: 24px;
+    position: absolute;
+    top: 38px;
+    right: -40px;
+    letter-spacing: 3.36px;
+    color: #fff;
+    border-radius: 0 10px 10px 0;
+    background: #343434;
+    z-index: 10;
+}
+.allscreen:before{
+    content: '';
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 12px;
+    left: 9px;
+    display: inline-block;
+    background: url(../img/放大.png) no-repeat;
+    z-index: 10;
+}
+.allscreen:hover{
+    color: #ff9001;
+}
+#hide2{
+    width:100%;
+    height: 100%;
+    position: fixed;
+    background:rgb(105, 105, 105);
+    z-index:3;
+    top:0;
+    left:0;
+    display: none;
+    opacity: 0.9;
+}
+.denglu{
+    height: 310px;
+    font-size: .12rem;
+    background-color: #fff;
+    border-radius: .5rem;
+    position: absolute;
+    z-index: 10000;
+    background: #fff;
+    max-width: 95%;
+    margin: auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    overflow: hidden;
+    width: 20.4rem;
+    min-width: 280px;
+}
+
+.in_denglu{
+    width: 100%;
+    height: 2rem;
+    background-color: #f5f5f5;
+    text-align: center;
+    font-size: 1.1rem;
+    position: relative;
+    color: #4C4C4C;
+    border-radius: 0.85rem;
+    line-height: 2rem;
+}
+.shuru{
+    padding: .5rem .58rem .58rem;
+    font-size: .42rem;
+    list-style: none;
+    display: inline-block;
+    width: 95%;
+}
+.shuru:before{
+    content: " ";
+    display: table;
+    height: 0;
+    visibility: hidden;
+}
+.shuru>p{
+    width: 140%;
+    float: left;
+    display: flex;
+}
+.shuru>p:before{
+    content: " ";
+    display: table;
+    height: 0;
+    visibility: hidden;
+}
+.shuru>p a{
+    font-size: .36rem;
+    color: #666;
+    height: 16px;
+}
+.shuru>a{
+    color: #fff;
+    border-radius: 0.3rem;
+    background-color: #ff9001;
+    text-align: center;
+    height: 1.8rem;
+    line-height: 1.8rem;
+    width: 100%;
+    margin: 0.62rem auto;
+    display: inline-block;
+}
+.heng{
+    margin: .14rem 0;
+    width: 100%;
+    color: #999;
+    font-size: .36rem;
+    height: .36rem;
+    line-height: .36rem;
+    position: relative;
+    float: left;
+}
+.heng>div{
+    top: 50%;
+    left: 0;
+    height: 0;
+    width: 100%;
+    border-top: 1px solid #e9e9e9;
+    position: absolute;
+
+}
+
+.heng>p{
+    height: 100%;
+    text-align: center;
+    float: left;
+    position: relative;
+    background-color: white;
+    width: auto;
+    left: 36%;
+}
+.tubiao{
+    height: 31px;
+    text-align: center;
+    margin: .14rem 0;
+    position: relative;
+    left: 83%;    
+    float: left;    
+    transform: translate(-50%,0);
+    -webkit-transform: translate(-50%,0);
+    display: flex;
+}
+
+.weixin{
+    width: 31px;
+    height: 31px;
+    margin: 0px 0px 0px 40px;
+    background: url(../img/weixinicon.png);
+}
+.tubiao .qq{
+    width: 31px;
+    height: 31px;
+    margin: 0px;
+    background: url(../img/qqicon.png);
+}
+.in_shuru{
+    height: 2rem;
+    border: 1px solid #dfdfdf;
+    padding: .2rem .09rem;
+    display: inline-block;
+    color: #333;
+    margin-bottom: .28rem;
+    width: 98%;
+}
+input{
+    width: 99%;
+    height: 100%;
+    border: none;
+}
+.icons{
+    width: 177px;
+    height: 46px;
+    margin-bottom: 36px;
+    background: url(../img/无需下载.png) no-repeat;
+}
+.icons img{
+    width: 177px;
+    top: 30px;
+    position: absolute;
+}
+.erweima{
+    width: 200px;
+    height: 306px;
+    padding-top: 17px;
+    right: -277px;
+    bottom: 6px;
+    position: absolute;
+    border-radius: 10px;
+    background: #343434;
+}
+.erweima>img{
+    width: 162px;
+    height: 162px;
+    margin: 0px auto;
+    position: relative;
+    display: block;
+    border-radius: 4px;
+}
+.erweima>p{
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+.erweima i{
+    width: 33px;
+    height: 23px;
+    display: inline-block;
+    position: absolute;
+    bottom: 138px;
+    left: -25px;
+    background: url(../img/手.png);
+}
+.finger{
+    animation: shake 500ms infinite;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+    perspective: 1000px;
+}
+@keyframes shake {
+    20%, 80% {
+      transform: translate3d(-1px, 0, 0);
+    }
+    0%,40% {
+        transform: translate3d(2px, 0, 0);
+      }
+    60%{
+        transform: translate3d(-2px, 0, 0);
+    }
+    100%{
+        transform: translate3d(4px, 0, 0);
+
+    }
+  }
+
+  .wechat{
+    position: fixed;
+    top: 25%;
+    padding-top: 25px;
+    height: 265px;
+    background: #fff;
+    border-radius: 10px;
+    display: none;
+    width: 460px;
+    z-index: 3;
+    left: 444.5px;
+    display: none;
+  }
+#hide{
+    width: 100%;
+    position: fixed;
+    background: #000;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    height: 100%;
+    opacity: 0.6;
+    display: none;
+}
+.close{
+    width: 36px;
+    height: 36px;
+    background: url(../img/close.png) no-repeat;
+    position: absolute;
+    top: 6px;
+    right: 9px;
+}
+.wechat h4{
+    font-size: 22px;
+    height: 32px;
+    line-height: 32px;
+    color: #333;
+    text-align: center;
+}
+.wechat img{
+    width: 162px;
+    height: 162px;
+    display: block;
+    margin: 0px auto;
+    border-radius: 4px;
+    position: relative;
+}
+.wechat p{
+    font-size: 18px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+    color: #666;
+}
+
+.offscreen{
+    width: 35px;
+    height: 108px;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 38px 0 0 5px;
+    text-align: center;
+    line-height: 24px;
+    letter-spacing: 3.36px;
+    color: #fff;
+    background: #343434;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 101;
+    border-radius: 10px 0 0 10px;
+}
+.offscreen:before{
+    content: '';
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    top: 12px;
+    left: 9px;
+    display: inline-block;
+    background: url(../img/缩小.png) no-repeat;
+    z-index: 10;
+
+}
+.offscreen:hover{   
+    color: #ff9001;   
+}
